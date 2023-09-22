@@ -1,0 +1,52 @@
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 136px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.scrollbar::-webkit-scrollbar-button {
+  height: 20px;
+}
+
+/* .scrollbar::-webkit-scrollbar-track {
+  background: #E7E7E7;;
+} */
+
+.selected {
+  background-color: aqua;
+}
+
+.CellWithComment {
+  position: relative;
+}
+
+.CellComment {
+  visibility: hidden;
+  width: auto;
+  position: absolute;
+  z-index: 100;
+  text-align: Left;
+  opacity: 0.2;
+  transition: opacity 1s;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #555;
+  padding: 3px;
+  width: 150px;
+  top: -30px;
+  right: 60px;
+}
+
+.CellWithComment:hover p.CellComment {
+  visibility: visible;
+  opacity: 1;
+}

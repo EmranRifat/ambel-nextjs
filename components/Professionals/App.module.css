@@ -1,0 +1,10 @@
+.steps .step:after {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.steps.step:before {
+
+  height: 0.2rem;
+  width: 69%;
+}
+

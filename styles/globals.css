@@ -1,0 +1,89 @@
+@import url(./custom.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  option {
+    @apply bg-[#19525A] text-[16px] text-white hover:bg-[#0089C9];
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: #f2f2f2;
+  font-family: Poppins, sans-serif;
+}
+.steps.step {
+  min-width: 0;
+}
+.steps.step:before {
+
+  height: 0.2rem;
+  width: 69%;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* input[type="number"] {
+	-moz-appearance: textfield;
+} */
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.alic {
+  background-color: #e2e2e2;
+}
+
+.colorpicker .react-colorful__hue-pointer {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.colorpicker .react-colorful__alpha-pointer {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.colorpicker .react-colorful__saturation-pointer {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.colorpicker .react-colorful {
+  left: auto;
+  right: auto;
+  /* width: 100%; */
+  /* width: fit-content; */
+}
+
+/* .custom-pointers .react-colorful__hue-pointer,
+.custom-pointers .react-colorful__alpha-pointer {
+  width: 2px;
+  border-radius: 3px;
+} */
+
+audio::-webkit-media-controls-download-button {
+  display: none;
+}
+/*change audio player background color*/
+audio::-webkit-media-controls-panel {
+  background-color: #e0f0f0;
+}

@@ -1,0 +1,51 @@
+export const sidebarItems = [
+	{
+		id: 1,
+		title: "Basic Info",
+		iconHeight: 32,
+		iconWidth: 36,
+		icon: "basicInfo",
+	},
+	{
+		id: 2,
+		title: "Schedule",
+		iconHeight: 33,
+		iconWidth: 32,
+		icon: "schedule",
+	},
+	{
+		id: 3,
+		title: "Security",
+		iconHeight: 40,
+		iconWidth: 32,
+		icon: "security",
+	},
+	{
+		id: 4,
+		title: "Family and Organization",
+		iconHeight: 28,
+		iconWidth: 36,
+		icon: "familyorganization",
+	},
+	{
+		id: 5,
+		title: "Reminder",
+		iconHeight: 38,
+		iconWidth: 32,
+		icon: "reminder",
+	},
+	{
+		id: 6,
+		title: "Referral",
+		iconHeight: 40,
+		iconWidth: 40,
+		icon: "referral",
+	},
+	{
+		id: 7,
+		title: "Connect",
+		iconHeight: 36,
+		iconWidth: 30,
+		icon: "connect",
+	},
+];
